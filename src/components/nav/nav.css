@@ -1,0 +1,123 @@
+@media screen and(max-width: 1024px) {
+
+}
+
+
+/*====MEDIA QUERIES (SMALL DEVICES)======*/
+    @media screen and (max-width: 600px){
+
+       activeNav {
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+activeNav {
+    margin-bottom: 2.6rem;
+}
+    }
+
+    nav {
+        background: rgba(0, 0, 0, 0.3);
+        width: max-content;
+        display: block;
+        padding: 0.7rem 1.7rem;
+        z-index: 2;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 2rem;
+        display: flex;
+        gap: 0.8rem;
+        border-radius: 3rem;
+        backdrop-filter: blur(15px);
+    }
+
+    nav a {
+        background: transparent;
+        padding: 0.6rem;
+        border-radius: 50%;
+        display: flex;
+        color: var(--color-light);
+        font-size: 1.1rem;
+
+    }
+
+    nav a:hover {
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    nav a.active {
+        background: var(--color-bg);
+        color: var(--color-white);
+    }
+
+ /*   .nav__menu {
+        all: unset;
+    }
+
+    .nav__toggle {
+        display: none;
+    }
+
+    /* .nav {
+        position: fixed;
+        inserst-block: 0;
+        right: 30px;
+        display: flex;
+        align-items: center;
+    } */
+
+   /* .nav__item {
+        margin-block: 20px;
+    }
+
+    .nav__link {
+        padding: 0;
+        border-bottom: none;
+        background-color: var(--container-color);
+        width: 50px;
+        height: 40px;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .nav__icon {
+        font-size: 20px;
+        margin-inline: auto;
+    }
+
+    .nav__name {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: var(--first-color);
+        height: 100%;
+        line-height: 50px;
+        padding-inline: 30px 25px;
+        border-radius: 30px;
+        font-size: var(--small-font-size);
+        color: var(--text-white);
+        opacity: 0;
+        visibility: hidden;
+        z-index: -1;
+        transition: all 0.3s ease;
+    }
+
+    .nav__link:hover .nav__name {
+        right: 37px;
+        color: var(--text-white);
+        opacity: 1;
+        visibility: hidden;
+        border-radius: 30px 0 0 30px;
+    }
+
+    .nav__link:hover,
+    .active-nav {
+        background-color: var(--first-color);
+    }
+
+    .nav__link:hover .nav__icon,
+    .active-nav .nav__icon {
+        color: var(--text-white);
+    }
+*/
